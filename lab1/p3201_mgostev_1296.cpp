@@ -3,26 +3,19 @@
 
 using namespace std;
 
-int find_max_potential(const vector<int> *potentials, size_t N);
-
 int main() {
     size_t N;
     cin >> N;
 
     vector<int> potentials = vector<int>(N);
-    for (int i = 0; i < N; cin >> potentials[i], ++i);
-
-    cout << find_max_potential(&potentials, N);
-
-    return 0;
-}
-
-int find_max_potential(const vector<int> *potentials, size_t N) {
-    int sum = 0, result = 0;
-    for (int i = 0; i < N; ++i) {
-        sum = max(0, sum + (*potentials)[i]);
+    int sum = 0, result = 0, p;
+    for(int i =0; i < N; ++i) {
+        cin >> p;
+        sum = max(0, sum + p);
         result = max(sum, result);
     }
 
-    return result;
+    cout << result;
+
+    return 0;
 }

@@ -22,9 +22,9 @@ int main() {
         if (E > 0) {
             if (A > 0) {
                 next_step(&E, &A, "EA");
-            } else if (F > 0)
+            } else if (F > 0) {
                 next_step(&E, &F, "EF");
-            else if (H > 0) {
+            } else if (H > 0) {
                 next_step(&E, &H, "EH");
             } else if (C > 0) {
                 E--;
