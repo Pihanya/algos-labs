@@ -16,3 +16,8 @@ add_executable(lab1_players lab1/p3201_mgostev_1401.cpp)
 add_executable(lab2_mean_on_plane lab2/p3201_mgostev_1207.cpp)
 add_executable(lab2_in_country_of_dumbass lab2/p3201_mgostev_1604.cpp)
 add_executable(lab2_who_guest lab2/p3201_mgostev_1726.cpp)
+
+
+add_executable(lab3_disk_tree lab3/p3201_mgostev_1067.cpp)
+add_executable(lab3_monobilliards lab3/p3201_mgostev_1494.cpp)
+add_executable(lab3_white_roads lab3/p3201_mgostev_1628.cpp)
